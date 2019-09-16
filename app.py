@@ -4,6 +4,8 @@ import quandl
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import ColumnDataSource
 
+app = Flask(__name__)
+
 @app.route('/', methods=['GET', 'POST'])
 def index_quand():
 

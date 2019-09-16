@@ -1,0 +1,22 @@
+<!doctype html>
+<title>A short quiz</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>
+<div class=page>
+  <h1>Check Ticker Info</h1>
+  <div class=metanav>
+
+    <h4>
+      What Stock Ticker Do You Want to Look for?
+    </h4>
+
+    <form id='userinfoform_lulu' method='post' action='index_quand' >
+      <p>
+    Stock Ticker Symbol: <input type='text' name='name_lulu' />
+      </p>
+    <input type='submit' value='Submit_lulu' />
+      </p>
+    </form>
+
+  </div>
+</div>
+</html>
